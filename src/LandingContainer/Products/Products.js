@@ -13,7 +13,7 @@ export default function Product() {
       <ul className="product-parent">
         <li className="product-details">
           <img src={barStoolImg} alt="" />
-          <h3>Lorem ipsum 1</h3>
+          <h3 className="product-title">Lorem ipsum 1</h3>
           <p className="product-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
