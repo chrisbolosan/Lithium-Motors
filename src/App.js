@@ -1,9 +1,10 @@
 import "./App.css";
+import LandingContainer from "./LandingContainer/LandingContainer";
 
 function App() {
   return (
     <div className="App">
-      <p>Lorem Ipsum</p>
+      <LandingContainer />
     </div>
   );
 }
