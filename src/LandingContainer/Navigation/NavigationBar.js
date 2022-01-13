@@ -40,7 +40,7 @@ const NavigationBar = () => {
     <AppBar
       className="navigation-container"
       position="static"
-      sx={{ background: "#FFFFFF", width: "1400px" }}
+      sx={{ background: "#FFFFFF", width: "1350px" }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
