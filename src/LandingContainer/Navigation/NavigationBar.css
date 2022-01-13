@@ -16,3 +16,30 @@
 .hamburger-menu {
   color: #000000;
 }
+
+.cart-item-img {
+  height: 92px;
+  width: 95px;
+  border-radius: 12px;
+}
+
+.cart-item-details {
+  margin-left: 10px;
+}
+
+.cart-item-details .colors {
+  padding: 0 20px 0 0;
+}
+
+.cart-item-details h4 {
+  margin: 10px 0 0 4px;
+}
+
+.cart-item-details button {
+  border: none;
+  outline: none;
+  text-decoration: underline;
+  background: transparent;
+  padding-left: 4px;
+  cursor: pointer;
+}

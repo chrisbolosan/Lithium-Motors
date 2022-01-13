@@ -14,6 +14,10 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
+import Colors from "../Colors/Colors";
+
+import "./NavigationBar.css";
+
 const pages = ["LOREM", "IPSUM", "EXCEPTEUR", "Consectetur", "Veniam"];
 
 const NavigationBar = () => {
@@ -22,6 +26,7 @@ const NavigationBar = () => {
   const [anchorElCart, setAnchorElCart] = React.useState(null);
 
   const cart = useStore((state) => state.cart);
+  const removeFromCart = useStore((state) => state.removeFromCart);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -170,8 +175,15 @@ const NavigationBar = () => {
                 </MenuItem>
               ) : (
                 cart.map((cartItem) => (
-                  <MenuItem key={cartItem.id}>
-                    <Typography textAlign="center">{cartItem.name}</Typography>
+                  <MenuItem key={cartItem.id} sx={{ display: "flex" }}>
+                    <img className="cart-item-img" src={cartItem.img} alt="" />
+                    <div className="cart-item-details">
+                      <h4>{cartItem.name}</h4>
+                      <Colors />
+                      <button onClick={() => removeFromCart(cartItem.id)}>
+                        Remove
+                      </button>
+                    </div>
                   </MenuItem>
                 ))
               )}
