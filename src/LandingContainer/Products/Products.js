@@ -63,13 +63,13 @@ export default function Product() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
 
-          <ul className="colors">
+          {/* <ul className="colors">
             <li className="color blue">
               <img src={checkImg} alt="" />
             </li>
             <li className="color purple"></li>
             <li className="color pink"></li>
-          </ul>
+          </ul> */}
 
           <button>Add to cart</button>
         </li>
