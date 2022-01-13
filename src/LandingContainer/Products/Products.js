@@ -10,7 +10,7 @@ import "./Products.css";
 export default function Product() {
   return (
     <section className="product-container">
-      <ul className="product-parent">
+      <div className="product-parent">
         <div className="product-details">
           <img src={glassesImg} alt="" />
           <h3 className="product-title">Lorem ipsum 1</h3>
@@ -92,7 +92,7 @@ export default function Product() {
           </ul>
           <button>Add to cart</button>
         </li> */}
-      </ul>
+      </div>
     </section>
   );
 }
