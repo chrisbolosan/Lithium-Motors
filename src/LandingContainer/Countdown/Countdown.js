@@ -5,7 +5,7 @@ export default function Countdown() {
     <div className="countdown-container">
       <div className="countdown-parent">
         <div className="countdown-details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
           <div className="countdown-clock-container">
             <div id="clockdiv">
               Days: <span class="days"></span>
