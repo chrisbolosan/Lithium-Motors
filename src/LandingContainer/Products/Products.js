@@ -1,9 +1,9 @@
 import React from "react";
 
-import barStoolImg from "../../assets/Product/barstool.jpg";
-import earbudsImg from "../../assets/Product/earbuds.jpg";
-import glassesImg from "../../assets/Product/glasses.jpg";
-import plantImg from "../../assets/Product/plant.jpg";
+import barStoolImg from "../../assets/Product/barstool.webp";
+import earbudsImg from "../../assets/Product/earbuds.webp";
+import glassesImg from "../../assets/Product/glasses.webp";
+import plantImg from "../../assets/Product/plant.webp";
 import checkImg from "../../assets/Product/arrow.svg";
 import "./Products.css";
 

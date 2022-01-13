@@ -1,0 +1,21 @@
+.picture-overlap {
+  /* height: 639px;
+  width: 603px; */
+  height: 590px;
+  width: 603px;
+  background-size: cover;
+  background-image: url("../assets/Home/standing.webp");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  z-index: 5;
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 90px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+@media only screen and (max-width: 375px) {
+  .picture-overlap {
+    display: hidden;
+  }
+}
