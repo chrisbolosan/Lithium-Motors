@@ -13,6 +13,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import Badge from "@mui/material/Badge";
 
 import Colors from "../Colors/Colors";
 
@@ -149,9 +150,11 @@ const NavigationBar = () => {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenCartMenu} sx={{ p: 0 }}>
-                <span className="material-icons">shopping_cart</span>
-              </IconButton>
+              <Badge badgeContent={cart.length} color="primary">
+                <IconButton onClick={handleOpenCartMenu} sx={{ p: 0 }}>
+                  <span className="material-icons">shopping_cart</span>
+                </IconButton>
+              </Badge>
             </Tooltip>
             <Menu
               sx={{ mt: "45px" }}

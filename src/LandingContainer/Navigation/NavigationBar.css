@@ -43,3 +43,8 @@
   padding-left: 4px;
   cursor: pointer;
 }
+
+.MuiBadge-colorPrimary {
+  background-color: #d74179 !important;
+  color: #fff;
+}
