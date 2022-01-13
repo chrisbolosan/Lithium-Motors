@@ -38,8 +38,6 @@ export default function Product() {
   const removeFromCart = useStore((state) => state.removeFromCart);
   const cart = useStore((state) => state.cart);
 
-  console.log(cart);
-
   const handleClick = (product) => {
     if (cart.find((item) => item.id === product.id)) {
       removeFromCart(product.id);
