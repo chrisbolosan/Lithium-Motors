@@ -2,7 +2,6 @@
   height: 644.86px;
   width: 1350px;
   max-height: 700vh;
-  border-radius: 0 800px 0 0;
   background-image: url("../../assets/Home/background.webp");
-  z-index: -5;
+  background-size: cover;
 }
