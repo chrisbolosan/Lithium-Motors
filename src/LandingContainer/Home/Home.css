@@ -1,6 +1,7 @@
 .home-container {
   height: 644.86px;
-  width: 1350px;
+  max-width: 1350px;
+  width: 100%;
   max-height: 700vh;
   background-image: url("../../assets/Home/background.webp");
   background-size: cover;
