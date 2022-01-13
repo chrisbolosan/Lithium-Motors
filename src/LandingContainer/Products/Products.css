@@ -12,7 +12,6 @@
   width: 50%;
   height: 100%;
   margin-top: 125px;
-  /* margin-left: 50px; */
 }
 .product-details {
   box-sizing: border-box;
@@ -59,24 +58,24 @@
   letter-spacing: 0;
   line-height: 24px;
 }
-/* .rectangle-1 {
-  height: 32px;
-  width: 32px;
+.blue {
+  height: 16px;
+  width: 16px;
   border-radius: 5px;
   background-color: #143061;
 }
-.rectangle-2 {
+.purple {
   height: 32px;
   width: 33px;
   border-radius: 5px;
   background-color: #81396f;
 }
-.rectangle-3 {
+.pink {
   height: 32px;
   width: 32px;
   border-radius: 5px;
   background-color: #f6437d;
-} */
+}
 /* .product-details button {
   height: 69px;
   width: 301px;

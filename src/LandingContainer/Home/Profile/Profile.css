@@ -13,14 +13,6 @@
 .profile-parent {
   display: flex;
 }
-/* .profile-picture {
-  height: 92%;
-  width: 92%;
-  background-size: cover;
-  background-image: url("../../../assets/Home/standing.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 .profile-info {
   height: 93px;
   width: 603px;
@@ -48,17 +40,6 @@
   opacity: 0.8;
   color: #000000;
 }
-
-/* 
-.profile-container {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  height: 10%;
-  min-height: fit-content;
-} */
-
 .profile-picture {
   display: flex;
   align-items: center;
