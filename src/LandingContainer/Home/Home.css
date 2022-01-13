@@ -2,9 +2,10 @@
   /* mask-border-width: 85%;
   max-height: 50%; */
   height: 644.86px;
-  width: 1800px;
-  border-radius: 0 400px 0 0;
-  /* aspect-ratio: auto 2 / 1; */
-  background-image: url("../../assets/Home/background.png");
+  width: 1500px;
+  max-height: 700vh;
+  border-radius: 0 800px 0 0;
+  aspect-ratio: auto 2 / 1;
+  background-image: url("../../assets/Home/background.webp");
   z-index: -5;
 }
