@@ -4,6 +4,8 @@ import barStoolImg from "../../assets/Product/barstool.webp";
 import earbudsImg from "../../assets/Product/earbuds.webp";
 import glassesImg from "../../assets/Product/glasses.webp";
 import plantImg from "../../assets/Product/plant.webp";
+import { pink } from "@mui/material/colors";
+import Checkbox from "@mui/material/Checkbox";
 // import checkImg from "../../assets/Product/arrow.svg";
 import "./Products.css";
 
@@ -18,11 +20,29 @@ export default function Product() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
 
-          <ul className="colors">
-            <li className="rectangle-1"></li>
-            <li className="rectangle-2"></li>
-            <li className="rectangle-3"></li>
-          </ul>
+          <div className="colors">
+            <div className="blue">
+              <input
+                type="checkbox"
+                id="topping"
+                name="blue"
+                value="#143061"
+                labelStyle={{ color: "blue" }}
+                iconStyle={{ fill: "blue" }}
+              />
+            </div>
+            <div className="purple">
+              <input
+                type="checkbox"
+                id="topping"
+                name="purple"
+                value="#81396F"
+              />
+            </div>
+            <div className="pink">
+              <input type="checkbox" id="topping" name="pink" value="#F6437D" />
+            </div>
+          </div>
 
           <button>Add to cart</button>
         </div>

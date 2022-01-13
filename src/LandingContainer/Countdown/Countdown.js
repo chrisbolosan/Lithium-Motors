@@ -8,10 +8,10 @@ export default function Countdown() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit
           <div className="countdown-clock-container">
             <div id="clockdiv">
-              Days: <span class="days"></span>
-              Hours: <span class="hours"></span>
-              Minutes: <span class="minutes"></span>
-              Seconds: <span class="seconds"></span>
+              Days: <span className="days"></span>
+              Hours: <span className="hours"></span>
+              Minutes: <span className="minutes"></span>
+              Seconds: <span className="seconds"></span>
             </div>
           </div>
         </div>
