@@ -40,9 +40,12 @@
   color: white;
   margin-left: 73px;
   margin-top: 30px;
+  border-color: #000000;
+  box-shadow: 0 0px 10px 0px #1f212c;
 }
 .profile-options .highlighted-btn:hover {
   background-color: rgb(248, 240, 217);
+  opacity: 0.8;
   color: #000000;
 }
 
