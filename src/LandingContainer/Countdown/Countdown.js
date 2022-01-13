@@ -7,11 +7,21 @@ export default function Countdown() {
         <div className="countdown-details">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit
           <div className="countdown-clock-container">
-            <div id="clockdiv">
-              Days: <span className="days"></span>
-              Hours: <span className="hours"></span>
-              Minutes: <span className="minutes"></span>
-              Seconds: <span className="seconds"></span>
+            <div>
+              <div className="number">00</div>
+              <div className="text">days</div>
+            </div>
+            <div>
+              <div className="number">00</div>
+              <div className="text">hours</div>
+            </div>
+            <div>
+              <div className="number">00</div>
+              <div className="text">minutes</div>
+            </div>
+            <div>
+              <div className="number">00</div>
+              <div className="text">seconds</div>
             </div>
           </div>
         </div>
