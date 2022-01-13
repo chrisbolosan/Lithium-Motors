@@ -3,7 +3,8 @@
   align-items: center;
   background-color: #000000;
   height: 250px;
-  width: 1350px;
+  max-width: 1350px;
+  width: 100%;
   color: white;
   margin-top: 50px;
   padding: 50px 80px;
