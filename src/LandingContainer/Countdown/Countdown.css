@@ -1,22 +1,36 @@
 .countdown-container {
-  display: flex;
-  justify-content: center;
-  height: 75px;
+  height: auto;
   width: 1350px;
   background-color: #1f3162;
 }
 .countdown-parent {
-  height: 31px;
-  width: 436px;
   color: rgba(255, 255, 255, 0.72);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0;
   line-height: 31px;
 }
 .countdown-details {
+  text-align: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
 }
-.clockdiv {
+.countdown-clock-container {
   color: rgba(255, 255, 255, 0.72);
+  display: flex;
+  margin-left: 15px;
+}
+.countdown-clock-container > div {
+  margin-right: 15px;
+  line-height: 20px;
+}
+.countdown-clock-container .number {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+.countdown-clock-container .text {
+  font-size: 13px;
 }
