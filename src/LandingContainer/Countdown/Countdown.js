@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Countdown.css";
+import whiteCross from "../../assets/Countdown/White Close.svg";
 
 function getTimeRemaining(endTime) {
   const total = Date.parse(endTime) - Date.parse(new Date());
@@ -26,6 +27,7 @@ export default function Countdown() {
     minutes: "00",
     seconds: "00",
   });
+  const [isOpen, setIsOpen] = useState(true);
 
   // countdown timer from a specified date
   useEffect(() => {
@@ -46,7 +48,7 @@ export default function Countdown() {
     return () => clearInterval(interval);
   }, [timer]);
 
-  return (
+  return isOpen ? (
     <div className="countdown-container">
       <div className="countdown-parent">
         <div className="countdown-details">
@@ -78,7 +80,11 @@ export default function Countdown() {
             </div>
           </div>
         </div>
+
+        <button className="close-btn" onClick={() => setIsOpen(false)}>
+          <img src={whiteCross} alt="" />
+        </button>
       </div>
     </div>
-  );
+  ) : null;
 }
