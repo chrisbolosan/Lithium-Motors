@@ -23,6 +23,10 @@
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.13);
   margin: 15px;
 }
+.product-info,
+.colors {
+  padding: 0 20px;
+}
 /* .product-details button {
   height: 16px;
   width: 123px;
@@ -36,8 +40,10 @@
   background-color: #000000;
 } */
 .product-parent img {
-  height: 250px;
+  height: 230px;
   width: 301px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
 }
 .product-title {
   height: 33px;
@@ -58,22 +64,42 @@
   letter-spacing: 0;
   line-height: 24px;
 }
-.blue {
-  height: 16px;
-  width: 16px;
-  border-radius: 5px;
-  background-color: #143061;
-}
-.purple {
-  height: 32px;
-  width: 33px;
-  border-radius: 5px;
-  background-color: #81396f;
-}
-.pink {
+/* Inspired by: https://www.html5canvastutorials.com/blog/2012/06/custom-form-radio-checkbox/ */
+input {
+  -webkit-appearance: none;
   height: 32px;
   width: 32px;
   border-radius: 5px;
+  display: inline-block;
+  position: relative;
+}
+input:checked {
+  color: #fff;
+}
+/* Inspired by: https://stackoverflow.com/a/25410621/11686135 */
+input:checked:after {
+  content: " ";
+  background-image: url(../../assets/Product/arrow.svg);
+  background-size: 22px 30px;
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 32px;
+  font-size: 14px;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  color: #fff;
+}
+input.blue,
+input.blue:checked {
+  background-color: #143061;
+}
+input.purple,
+input.purple:checked {
+  background-color: #81396f;
+}
+input.pink,
+input.pink:checked {
   background-color: #f6437d;
 }
 /* .product-details button {

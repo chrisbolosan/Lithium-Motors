@@ -45,7 +45,6 @@ const NavigationBar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
-            // variant="h6"
             noWrap
             component="div"
             sx={{
