@@ -1,7 +1,8 @@
 .home-container {
   width: 1800px;
-  max-height: 1000vh;
+  max-height: 700vh;
   border-radius: 0 800px 0 0;
   aspect-ratio: auto 2 / 1;
   background-image: url("../../assets/Home/background.png");
+  z-index: -5;
 }
