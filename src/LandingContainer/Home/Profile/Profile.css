@@ -1,3 +1,18 @@
+.profile-subject {
+  height: 356px;
+  width: 603px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 83px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 89px;
+  margin-top: 50px;
+  margin-left: 73px;
+}
+.profile-parent {
+  display: flex;
+}
 .profile-picture {
   height: 92%;
   width: 92%;
@@ -6,7 +21,32 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.profile-info {
+  height: 93px;
+  width: 603px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 31px;
+  margin-left: 73px;
+  margin-top: 50px;
+}
+.profile-options .highlighted-btn {
+  height: 48px;
+  width: 255px;
+  border-radius: 24px;
+  background-color: #000000;
+  color: white;
+  margin-left: 73px;
+  margin-top: 30px;
+}
+.profile-options .highlighted-btn:hover {
+  background-color: rgb(248, 240, 217);
+  color: #000000;
+}
 
+/* 
 .profile-container {
   display: flex;
   align-items: center;
@@ -14,67 +54,15 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-}
-.profile-parent {
-  display: flex;
-  align-items: center;
-  color: aliceblue;
-}
-.profile-details-name {
-  font-size: 30px;
-  font-family: "Poppins SemiBold";
-}
-.profile-details-role {
-  display: flex;
-  flex-direction: column;
-  margin: 14px 0 24px 0;
-}
-.profile-details-role h1 {
-  font-size: 34px;
-  font-family: "Lucida Bright", Georgia, serif;
-}
-.primary-text {
-  color: (--white);
-}
-.highlighted-text {
-  color: var(--dark-orange);
-}
-.profile-role-tagline {
-  font-size: 19px;
-  margin: 5px 0 0 0;
-  font-family: "Poppins Light";
-}
-.profile-options .highlighted-btn {
-  margin: 0 0 0 28px;
-  border-radius: 12px solid white;
-  border-color: white;
-}
-.profile-options .highlighted-btn:hover {
-  margin: 0 0 0 28px;
-  background-color: cornsilk;
-  color: black;
-}
+} */
+
 .profile-picture {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 0px 0px var(--white);
-  border-radius: 50%;
-  height: 380px;
-  width: 380px;
+  border-radius: 25px 25px 25px 25px;
+  height: 639px;
+  width: 603px;
   margin: 0 0px 0 100px;
-}
-.profile-picture-background:hover {
-  transform: scale(1.07);
-  transition: 1s ease-out;
-}
-
-.colz .cols-icon i {
-  font-size: 30px;
-  color: white;
-  padding: 8px;
-  padding-left: 0px;
-}
-.colz .cols-icon i:hover {
-  transform: scale(1.5);
+  margin-top: 300px;
 }
