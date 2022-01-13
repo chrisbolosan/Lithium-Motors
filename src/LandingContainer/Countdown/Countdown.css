@@ -1,0 +1,22 @@
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  width: 1440px;
+  background-color: #1f3162;
+}
+.countdown-parent {
+  height: 31px;
+  width: 436px;
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 31px;
+}
+.countdown-details {
+  display: flex;
+}
+.clockdiv {
+  color: rgba(255, 255, 255, 0.72);
+}
