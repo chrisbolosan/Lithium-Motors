@@ -35,3 +35,15 @@
 .countdown-clock-container .text {
   font-size: 13px;
 }
+
+@media only screen and (max-width: 768px) {
+  .countdown-details {
+    display: block;
+    line-height: 20px;
+  }
+
+  .countdown-clock-container {
+    margin-top: 10px;
+    justify-content: center;
+  }
+}
