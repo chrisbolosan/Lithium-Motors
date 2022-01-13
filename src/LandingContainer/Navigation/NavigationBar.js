@@ -51,6 +51,8 @@ const NavigationBar = () => {
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex", color: "#000000" },
+              fontSize: "20px",
+              fontWeight: "bold",
             }}
             className="lorem-logo"
           >
@@ -113,13 +115,25 @@ const NavigationBar = () => {
           >
             Lorem Ipsum
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", md: "flex" },
+              justifyContent: "space-around",
+            }}
+          >
             {pages.map((page) => (
               <Button
                 className="navigation-menu-item"
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "black", display: "block" }}
+                sx={{
+                  my: 2,
+                  color: "black",
+                  display: "block",
+                  fontWeight: "bold",
+                  fontSize: "14px",
+                }}
               >
                 {page}
               </Button>
