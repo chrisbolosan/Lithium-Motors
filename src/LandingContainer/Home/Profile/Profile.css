@@ -1,21 +1,19 @@
 .profile-subject {
-  height: 356px;
-  width: 603px;
+  width: 65%;
   color: #ffffff;
   font-family: Poppins;
-  font-size: 83px;
+  font-size: clamp(30px, 6vw, 83px);
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 89px;
-  margin-top: 50px;
+  line-height: 7vw;
+  margin-top: 35px;
   margin-left: 73px;
 }
 .profile-parent {
   display: flex;
 }
 .profile-info {
-  height: 93px;
-  width: 603px;
+  width: 68%;
   color: #ffffff;
   font-family: "Open Sans";
   font-size: 16px;
@@ -49,4 +47,61 @@
   width: 603px;
   margin: 0 0px 0 100px;
   margin-top: 300px;
+}
+
+@media only screen and (min-width: 1350px) {
+  .profile-subject {
+    line-height: 89px;
+  }
+  .profile-info {
+    width: 603px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .profile-subject {
+    font-size: clamp(30px, 5.7vw, 83px);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .profile-subject {
+    width: 100%;
+    font-size: clamp(30px, 5.2vw, 83px);
+  }
+
+  .profile-info {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-parent {
+    display: block;
+    padding: 20px;
+  }
+  .profile-subject {
+    font-size: clamp(30px, 6vw, 83px);
+    text-align: center;
+    margin-left: 0;
+    line-height: 60px;
+  }
+  .profile-info {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    line-height: 25px;
+  }
+  .profile-options .highlighted-btn {
+    display: block;
+    margin: 30px auto 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-subject {
+    font-size: 25px;
+    line-height: 45px;
+    margin-top: 0;
+  }
 }

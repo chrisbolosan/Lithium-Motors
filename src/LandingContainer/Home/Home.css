@@ -5,4 +5,29 @@
   max-height: 700vh;
   background-image: url("../../assets/Home/background.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-container {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-container {
+    height: 45vh;
+    background-size: 1200px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .home-container {
+    height: 65vh;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .home-container {
+    height: 75vh;
+  }
 }

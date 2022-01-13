@@ -2,21 +2,36 @@
   width: 100%;
 }
 .picture-overlap {
-  height: 590px;
-  width: 603px;
+  height: 550px;
+  width: 40%;
   background-size: cover;
   background-image: url("../assets/Home/standing.webp");
   background-repeat: no-repeat;
-
+  background-position: center;
   z-index: 5;
   position: absolute;
-  margin-left: 725px;
-  margin-top: 90px;
+  margin-left: 56%;
+  margin-top: 13%;
   border-radius: 25px 25px 25px 25px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 1350px) {
   .picture-overlap {
-    display: hidden;
+    height: 590px;
+    width: 603px;
+    margin-left: 725px;
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .picture-overlap {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .picture-overlap {
+    display: none;
   }
 }
