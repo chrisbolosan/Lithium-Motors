@@ -13,14 +13,14 @@
 .profile-parent {
   display: flex;
 }
-.profile-picture {
+/* .profile-picture {
   height: 92%;
   width: 92%;
   background-size: cover;
   background-image: url("../../../assets/Home/standing.webp");
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 .profile-info {
   height: 93px;
   width: 603px;
