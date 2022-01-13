@@ -1,3 +1,6 @@
+.landing-container {
+  width: 100%;
+}
 .picture-overlap {
   /* height: 639px;
   width: 603px; */
@@ -9,7 +12,7 @@
   /* background-position: center; */
   z-index: 5;
   position: absolute;
-  margin-left: 750px;
+  margin-left: 725px;
   margin-top: 90px;
   border-radius: 25px 25px 25px 25px;
 }
