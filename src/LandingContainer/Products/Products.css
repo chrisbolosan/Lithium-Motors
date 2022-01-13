@@ -23,6 +23,10 @@
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.13);
   margin: 15px;
 }
+.product-info,
+.colors {
+  padding: 0 20px;
+}
 /* .product-details button {
   height: 16px;
   width: 123px;
@@ -36,8 +40,10 @@
   background-color: #000000;
 } */
 .product-parent img {
-  height: 250px;
+  height: 230px;
   width: 301px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
 }
 .product-title {
   height: 33px;
@@ -58,24 +64,84 @@
   letter-spacing: 0;
   line-height: 24px;
 }
+/* input[type="checked"] {
+  appearance: none;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  border-radius: 5px;
+} */
 .blue {
-  height: 16px;
-  width: 16px;
+  -webkit-appearance: none;
+  height: 32px;
+  width: 32px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  background-color: #143061;
+}
+.blue:active,
+.blue:checked:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.blue:checked {
+  background-color: #143061;
+  color: #fff;
+}
+
+/* Inspired by: https://stackoverflow.com/a/25410621/11686135 */
+.blue:checked:after {
+  content: " ";
+  background-image: url(../../assets/Product/arrow.svg);
+  background-size: 28px 28px;
+  height: 32px;
+  width: 32px;
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #fff;
+}
+/* input[type="checked"]:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #fff;
+}
+input[type="checked"].blue:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #fff;
+}
+input[type="checkbox"].blue {
+  appearance: none;
+  position: relative;
+  height: 32px;
+  width: 32px;
   border-radius: 5px;
   background-color: #143061;
 }
-.purple {
+input[type="checkbox"].purple {
+  appearance: none;
+  position: relative;
   height: 32px;
-  width: 33px;
+  width: 32px;
   border-radius: 5px;
   background-color: #81396f;
 }
-.pink {
+input[type="checkbox"].pink {
+  appearance: none;
+  position: relative;
   height: 32px;
   width: 32px;
   border-radius: 5px;
   background-color: #f6437d;
-}
+} */
 /* .product-details button {
   height: 69px;
   width: 301px;
