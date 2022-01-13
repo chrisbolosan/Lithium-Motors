@@ -22,23 +22,12 @@
   background-color: #ffffff;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.13);
   margin: 15px;
+  position: relative;
 }
 .product-info,
 .colors {
   padding: 0 20px;
 }
-/* .product-details button {
-  height: 16px;
-  width: 123px;
-  color: #ffffff;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 16px;
-  text-align: center;
-  background-color: #000000;
-} */
 .product-parent img {
   height: 230px;
   width: 301px;
@@ -102,9 +91,16 @@ input.pink,
 input.pink:checked {
   background-color: #f6437d;
 }
-/* .product-details button {
-  height: 69px;
-  width: 301px;
+.product-details .cart-btn {
+  position: absolute;
+  bottom: 0;
+  border: none;
+  outline: none;
+  width: 100%;
   border-radius: 0 0 12px 12px;
   background-color: #000000;
-} */
+  padding: 25px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
