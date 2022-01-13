@@ -1,7 +1,27 @@
 .footer-container {
+  display: flex;
   background-color: #000000;
-  height: 500px;
+  height: 250px;
   width: 100%;
   color: white;
   margin-top: 50px;
+}
+
+.footer-logo {
+  height: 10vh;
+  width: 100%;
+  background-image: url("../../assets/Footer/LiLogo.svg");
+  background-repeat: no-repeat;
+
+  margin-left: 80px;
+}
+.footer-navigation-subject {
+  height: 41px;
+  width: 109px;
+  color: #f6437d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 41px;
 }
