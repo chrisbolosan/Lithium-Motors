@@ -6,12 +6,13 @@
 .product-parent {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
   width: 50%;
   height: 100%;
   margin-top: 125px;
+  /* margin-left: 50px; */
 }
 .product-details {
   box-sizing: border-box;
@@ -21,6 +22,7 @@
   border-radius: 12px;
   background-color: #ffffff;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.13);
+  margin: 15px;
 }
 /* .product-details button {
   height: 16px;
