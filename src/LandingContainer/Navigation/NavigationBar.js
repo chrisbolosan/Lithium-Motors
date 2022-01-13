@@ -1,5 +1,7 @@
 import React from "react";
 
+import useStore from "../../store";
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -18,13 +20,13 @@ const NavigationBar = () => {
   //restyle spacing and font, REVISIT, CART later
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElCart, setAnchorElCart] = React.useState(null);
-  const [cart, setCart] = React.useState([]);
+
+  const cart = useStore((state) => state.cart);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
   const handleOpenCartMenu = (event) => {
-    setCart(["item1", "item2", "item3"]);
     setAnchorElCart(event.currentTarget);
   };
 
@@ -45,6 +47,7 @@ const NavigationBar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
+            // variant="h6"
             noWrap
             component="div"
             sx={{
@@ -161,11 +164,17 @@ const NavigationBar = () => {
               open={Boolean(anchorElCart)}
               onClose={handleCloseCartMenu}
             >
-              {cart.map((cartItem) => (
-                <MenuItem key={cartItem} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{cartItem}</Typography>
+              {cart.length === 0 ? (
+                <MenuItem>
+                  <Typography textAlign="center">No items in cart</Typography>
                 </MenuItem>
-              ))}
+              ) : (
+                cart.map((cartItem) => (
+                  <MenuItem key={cartItem.id}>
+                    <Typography textAlign="center">{cartItem.name}</Typography>
+                  </MenuItem>
+                ))
+              )}
             </Menu>
           </Box>
         </Toolbar>
