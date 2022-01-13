@@ -21,7 +21,6 @@ export default function Product() {
           </div>
 
           <div className="colors">
-            {/* <input type="checkbox" id="checkbox-1-1" class="regular-checkbox" /> */}
             <input
               type="checkbox"
               className="blue"
@@ -42,7 +41,7 @@ export default function Product() {
             />
           </div>
 
-          <button>Add to cart</button>
+          <button className="cart-btn">Add to cart</button>
         </div>
         <div className="product-details">
           <img src={barStoolImg} alt="" />
@@ -74,7 +73,7 @@ export default function Product() {
             />
           </div>
 
-          <button>Add to cart</button>
+          <button className="cart-btn">Add to cart</button>
         </div>
 
         <div className="product-details">
@@ -107,7 +106,7 @@ export default function Product() {
             />
           </div>
 
-          <button>Add to cart</button>
+          <button className="cart-btn">Add to cart</button>
         </div>
         <div className="product-details">
           <img src={plantImg} alt="" />
@@ -139,7 +138,7 @@ export default function Product() {
             />
           </div>
 
-          <button>Add to cart</button>
+          <button className="cart-btn">Add to cart</button>
         </div>
         {/* <li className="product-details">
           <h3>Lorem ipsum 4</h3>
@@ -153,7 +152,7 @@ export default function Product() {
             <li className="color purple"></li>
             <li className="color pink"></li>
           </ul>
-          <button>Add to cart</button>
+          <button className="cart-btn">Add to cart</button>
         </li> */}
       </div>
     </section>
