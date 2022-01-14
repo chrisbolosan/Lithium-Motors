@@ -1,25 +1,30 @@
 .profile-subject {
-  width: 65%;
+  width: 600px;
+  height: 356px;
   color: #ffffff;
   font-family: Poppins;
-  font-size: clamp(30px, 6vw, 83px);
+  font-size: 83px;
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 7vw;
-  margin-top: 35px;
-  margin-left: 73px;
+  line-height: 89px;
+  /* margin-top: 35px; */
+  margin-left: -513px;
+  align-self: left;
 }
 .profile-parent {
   display: flex;
 }
-.profile-info {
-  width: 68%;
+.profile-info > span {
+  display: flex;
+
+  width: 600px;
+  height: 93px;
   color: #ffffff;
   font-family: "Open Sans";
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0;
   line-height: 31px;
-  margin-left: 73px;
+  margin-left: -513px;
   margin-top: 25px;
 }
 .profile-options .highlighted-btn {
@@ -28,7 +33,7 @@
   border-radius: 24px;
   background-color: #000000;
   color: white;
-  margin-left: 73px;
+  margin-left: -513px;
   margin-top: 30px;
   border-color: #000000;
   box-shadow: 0 0px 10px 0px #1f212c;

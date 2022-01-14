@@ -22,7 +22,7 @@ export default function Profile() {
             <button className="btn highlighted-btn">Lorem</button>
           </div>
         </div>
-        <div className="profile-picture"></div>
+        {/* <div className="profile-picture"></div> */}
       </div>
     </div>
   );

@@ -2,15 +2,15 @@
   width: 100%;
 }
 .picture-overlap {
-  height: 550px;
-  width: 40%;
+  height: 645px;
+  width: 965px;
   background-size: cover;
   background-image: url("../assets/Home/standing.webp");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center right;
   z-index: 5;
   position: absolute;
-  margin-left: 56%;
+  margin-right: -100px;
   margin-top: 13%;
   border-radius: 25px 25px 25px 25px;
 }
