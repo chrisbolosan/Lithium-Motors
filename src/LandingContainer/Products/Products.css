@@ -65,3 +65,6 @@
   font-size: 15px;
   cursor: pointer;
 }
+.product-details .cart-btn:hover {
+  opacity: 0.7;
+}

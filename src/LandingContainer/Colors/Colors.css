@@ -6,7 +6,12 @@ input {
   border-radius: 5px;
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
+input:hover {
+  opacity: 0.8;
+}
+
 input:checked {
   color: #fff;
 }

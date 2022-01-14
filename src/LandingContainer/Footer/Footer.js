@@ -9,27 +9,45 @@ export default function Footer() {
       <div className="footer-navigation-container">
         <h4 className="footer-navigation-subject">Lorem Ipsum</h4>
         <div className="footer-navigation-links">
-          <a href="/">Lorem Ipsum</a>
-          <a href="/">Lorem Ipsum</a>
-          <a href="/">Lorem Ipsum</a>
+          <a className="footer-link1" href="/">
+            Lorem Ipsum
+          </a>
+          <a className="footer-link2" href="/">
+            Lorem Ipsum
+          </a>
+          <a className="footer-link3" href="/">
+            Lorem Ipsum
+          </a>
         </div>
       </div>
 
       <div className="footer-navigation-container">
         <h4 className="footer-navigation-subject">Lorem Ipsum</h4>
         <div className="footer-navigation-links">
-          <a href="/">Lorem Ipsum</a>
-          <a href="/">Lorem Ipsum</a>
-          <a href="/">Lorem Ipsum</a>
+          <a className="footer-link1" href="/">
+            Lorem Ipsum
+          </a>
+          <a className="footer-link2" href="/">
+            Lorem Ipsum
+          </a>
+          <a className="footer-link3" href="/">
+            Lorem Ipsum
+          </a>
         </div>
       </div>
 
       <div className="footer-navigation-container">
         <h4 className="footer-navigation-subject">Lorem Ipsum</h4>
         <div className="footer-navigation-links">
-          <a href="/">Lorem Ipsum</a>
-          <a href="/">Lorem Ipsum</a>
-          <a href="/">Lorem Ipsum</a>
+          <a className="footer-link1" href="/">
+            Lorem Ipsum
+          </a>
+          <a className="footer-link2" href="/">
+            Lorem Ipsum
+          </a>
+          <a className="footer-link3" href="/">
+            Lorem Ipsum
+          </a>
         </div>
       </div>
     </div>
