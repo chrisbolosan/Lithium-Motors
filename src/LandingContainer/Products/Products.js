@@ -50,7 +50,6 @@ export default function Product() {
       <div className="product-parent">
         {products.map((product) => (
           <div className="product-details" key={product.id}>
-            {/* <img src={product.img} alt="" /> */}
             <LazyLoadImage alt={""} src={product.img} />
             <div className="product-info">
               <h3 className="product-title">{product.name}</h3>

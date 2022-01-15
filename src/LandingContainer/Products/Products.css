@@ -34,6 +34,11 @@
   object-fit: cover;
   border-radius: 12px 12px 0 0;
 }
+.product-parent img:hover {
+  transform: scale(1.04);
+  transition: 1s ease-in;
+  border-radius: 10px 10px 10px 10px;
+}
 .product-title {
   height: 33px;
   color: #000000;
