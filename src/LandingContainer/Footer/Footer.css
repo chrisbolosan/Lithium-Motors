@@ -61,22 +61,42 @@
     margin-top: 20px;
   } */
 }
-
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 880px) {
+  .footer-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
   .footer-logo {
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  .footer-navigation-container {
+    margin-right: 70px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .footer-logo {
+    display: flex;
+    align-content: center;
     background-size: cover;
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
     background-image: url("../../assets/Footer/LiLogo.svg");
     background-repeat: no-repeat;
+    margin-right: 50px;
   }
   .footer-container {
     display: flex;
     flex-direction: column;
   }
   .footer-navigation-container {
-    margin-left: 0;
+    margin-left: 70px;
     margin-top: 20px;
+  }
+  .footer-navigation-subject {
+    width: 150px;
   }
 }
