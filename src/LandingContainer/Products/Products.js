@@ -1,7 +1,6 @@
 import React from "react";
-
 import useStore from "../../store";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import barStoolImg from "../../assets/Product/barstool.webp";
 import earbudsImg from "../../assets/Product/earbuds.webp";
 import glassesImg from "../../assets/Product/glasses.webp";
@@ -51,7 +50,8 @@ export default function Product() {
       <div className="product-parent">
         {products.map((product) => (
           <div className="product-details" key={product.id}>
-            <img src={product.img} alt="" />
+            {/* <img src={product.img} alt="" /> */}
+            <LazyLoadImage alt={""} src={product.img} />
             <div className="product-info">
               <h3 className="product-title">{product.name}</h3>
               <p className="product-description">
