@@ -149,13 +149,12 @@ const NavigationBar = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <Badge badgeContent={cart.length} color="primary">
-                <IconButton onClick={handleOpenCartMenu} sx={{ p: 0 }}>
-                  <span className="material-icons">shopping_cart</span>
-                </IconButton>
-              </Badge>
-            </Tooltip>
+            <Badge badgeContent={cart.length} color="primary">
+              <IconButton onClick={handleOpenCartMenu} sx={{ p: 0 }}>
+                <span className="material-icons">shopping_cart</span>
+              </IconButton>
+            </Badge>
+
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"
