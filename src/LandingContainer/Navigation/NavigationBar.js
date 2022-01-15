@@ -1,7 +1,5 @@
 import React from "react";
-
 import useStore from "../../store";
-
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -11,18 +9,14 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import Badge from "@mui/material/Badge";
-
 import Colors from "../Colors/Colors";
-
 import "./NavigationBar.css";
 
 const pages = ["LOREM", "IPSUM", "EXCEPTEUR", "Consectetur", "Veniam"];
 
 const NavigationBar = () => {
-  //restyle spacing and font, REVISIT, CART later
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElCart, setAnchorElCart] = React.useState(null);
 
@@ -53,7 +47,6 @@ const NavigationBar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
-            // variant="h6"
             noWrap
             component="div"
             sx={{
@@ -74,7 +67,6 @@ const NavigationBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              // color="inherit"
               className="hamburger-menu"
             >
               <MenuIcon />
@@ -126,7 +118,7 @@ const NavigationBar = () => {
           <Box
             sx={{
               flexGrow: 1,
-              display: { xs: "none", md: "flex" },
+              display: { xs: "none", md: "flex", fontSize: "14px" },
               justifyContent: "space-around",
             }}
           >
