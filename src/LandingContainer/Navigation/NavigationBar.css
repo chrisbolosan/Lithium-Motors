@@ -16,8 +16,8 @@
 .hamburger-menu {
   color: #000000;
 }
-.css-6hp17o-MuiList-root-MuiMenu-list {
-  width: 200px !important;
+.MuiList-root {
+  width: 170px;
 }
 .cart-item-img {
   height: 92px;
