@@ -1,7 +1,5 @@
 import React from "react";
-
 import useStore from "../../store";
-
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -11,12 +9,9 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import Badge from "@mui/material/Badge";
-
 import Colors from "../Colors/Colors";
-
 import "./NavigationBar.css";
 
 const pages = ["LOREM", "IPSUM", "EXCEPTEUR", "Consectetur", "Veniam"];
