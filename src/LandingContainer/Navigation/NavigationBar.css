@@ -5,7 +5,7 @@
   height: 31px;
   width: 62px;
   color: #000000;
-  /* font-family: Poppins; */
+  font-family: Poppins;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 3px;
@@ -16,9 +16,8 @@
 .hamburger-menu {
   color: #000000;
 }
-
 .css-6hp17o-MuiList-root-MuiMenu-list {
-  width: 130px;
+  width: 150px;
 }
 .cart-item-img {
   height: 92px;
