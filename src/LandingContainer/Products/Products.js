@@ -5,7 +5,6 @@ import barStoolImg from "../../assets/Product/barstool.webp";
 import earbudsImg from "../../assets/Product/earbuds.webp";
 import glassesImg from "../../assets/Product/glasses.webp";
 import plantImg from "../../assets/Product/plant.webp";
-
 import "./Products.css";
 import Colors from "../Colors/Colors";
 
@@ -14,21 +13,25 @@ const products = [
     id: 1,
     name: "Lorem ipsum 1",
     img: glassesImg,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 2,
     name: "Lorem ipsum 2",
     img: barStoolImg,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 3,
     name: "Lorem ipsum 3",
     img: earbudsImg,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 4,
     name: "Lorem ipsum 4",
     img: plantImg,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
 
@@ -38,11 +41,9 @@ export default function Product() {
   const cart = useStore((state) => state.cart);
 
   const handleClick = (product) => {
-    if (cart.find((item) => item.id === product.id)) {
-      removeFromCart(product.id);
-    } else {
-      addToCart(product);
-    }
+    cart.find((item) => item.id === product.id)
+      ? removeFromCart(product.id)
+      : addToCart(product);
   };
 
   return (
@@ -53,13 +54,9 @@ export default function Product() {
             <LazyLoadImage alt={""} src={product.img} />
             <div className="product-info">
               <h3 className="product-title">{product.name}</h3>
-              <p className="product-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
+              <p className="product-description">{product.description}</p>
             </div>
-
             <Colors />
-
             <button className="cart-btn" onClick={() => handleClick(product)}>
               {cart.find((item) => item.id === product.id)
                 ? "Remove from cart"
