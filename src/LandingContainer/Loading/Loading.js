@@ -5,7 +5,7 @@ import MoonLoader from "react-spinners/MoonLoader";
 const override = css`
   display: block;
   margin: 0 auto;
-  border-color: "3699D7";
+  border-color: "558BAD";
 `;
 
 export default function Loading() {
