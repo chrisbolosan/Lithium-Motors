@@ -1,12 +1,13 @@
 import React from "react";
 import useStore from "../../store";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import Loading from "../Loading/Loading";
+import Colors from "../Colors/Colors";
 import barStoolImg from "../../assets/Product/barstool.webp";
 import earbudsImg from "../../assets/Product/earbuds.webp";
 import glassesImg from "../../assets/Product/glasses.webp";
 import plantImg from "../../assets/Product/plant.webp";
 import "./Products.css";
-import Colors from "../Colors/Colors";
 
 const products = [
   {
@@ -49,21 +50,25 @@ export default function Product() {
   return (
     <section className="product-container">
       <div className="product-parent">
-        {products.map((product) => (
-          <div className="product-details" key={product.id}>
-            <LazyLoadImage alt={""} src={product.img} />
-            <div className="product-info">
-              <h3 className="product-title">{product.name}</h3>
-              <p className="product-description">{product.description}</p>
+        {products.length === 0 ? (
+          <Loading />
+        ) : (
+          products.map((product) => (
+            <div className="product-details" key={product.id}>
+              <LazyLoadImage alt={<Loading />} src={product.img} />
+              <div className="product-info">
+                <h3 className="product-title">{product.name}</h3>
+                <p className="product-description">{product.description}</p>
+              </div>
+              <Colors />
+              <button className="cart-btn" onClick={() => handleClick(product)}>
+                {cart.find((item) => item.id === product.id)
+                  ? "Remove from cart"
+                  : "Add to cart"}
+              </button>
             </div>
-            <Colors />
-            <button className="cart-btn" onClick={() => handleClick(product)}>
-              {cart.find((item) => item.id === product.id)
-                ? "Remove from cart"
-                : "Add to cart"}
-            </button>
-          </div>
-        ))}
+          ))
+        )}
       </div>
     </section>
   );
