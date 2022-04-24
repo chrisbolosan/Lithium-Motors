@@ -3,36 +3,39 @@ import useStore from "../../store";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Loading from "../Loading/Loading";
 import Colors from "../Colors/Colors";
-import barStoolImg from "../../assets/Product/barstool.webp";
-import earbudsImg from "../../assets/Product/earbuds.webp";
-import glassesImg from "../../assets/Product/glasses.webp";
-import plantImg from "../../assets/Product/plant.webp";
+import car2Img from "../../assets/Product/car2.png";
+import car3Img from "../../assets/Product/car3.webp";
+import car1Img from "../../assets/Product/car1.png";
+import car4Img from "../../assets/Product/car4.jpeg";
 import "./Products.css";
 
 const products = [
   {
     id: 1,
-    name: "Lorem ipsum 1",
-    img: glassesImg,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "iX Series",
+    img: car1Img,
+    description:
+      "Fast-forward design. Trailblazing power. Discover the First-Ever fully electric Sports Activity Vehicle",
   },
   {
     id: 2,
-    name: "Lorem ipsum 2",
-    img: barStoolImg,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "M Series",
+    img: car2Img,
+    description:
+      "Meet the First-Ever sporty electric vehicle that will leave you breathless",
   },
   {
     id: 3,
-    name: "Lorem ipsum 3",
-    img: earbudsImg,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "Z Series",
+    img: car3Img,
+    description:
+      "Quick, high-tech,and featuring a flashy gimmick in its Falcon-wing rear doors.",
   },
   {
     id: 4,
-    name: "Lorem ipsum 4",
-    img: plantImg,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "Buzz Series",
+    img: car4Img,
+    description: "The road to the ID. Buzz is going to be worth the buzz.",
   },
 ];
 

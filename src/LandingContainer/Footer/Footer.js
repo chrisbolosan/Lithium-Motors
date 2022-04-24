@@ -7,46 +7,46 @@ export default function Footer() {
       <div className="footer-logo"></div>
 
       <div className="footer-navigation-container">
-        <h4 className="footer-navigation-subject">Lorem Ipsum</h4>
+        <h4 className="footer-navigation-subject">INVENTORY</h4>
         <div className="footer-navigation-links">
           <a className="footer-link1" href="/">
-            Lorem Ipsum
+            New Vehicles
           </a>
           <a className="footer-link2" href="/">
-            Lorem Ipsum
+            Pre-Owned Vehicles
           </a>
           <a className="footer-link3" href="/">
-            Lorem Ipsum
+            Certified Pre-Owned Vehicles
           </a>
         </div>
       </div>
 
       <div className="footer-navigation-container">
-        <h4 className="footer-navigation-subject">Lorem Ipsum</h4>
+        <h4 className="footer-navigation-subject">Financing</h4>
         <div className="footer-navigation-links">
           <a className="footer-link1" href="/">
-            Lorem Ipsum
+            Get Approved
           </a>
           <a className="footer-link2" href="/">
-            Lorem Ipsum
+            Finance Center
           </a>
           <a className="footer-link3" href="/">
-            Lorem Ipsum
+            Lease a vehicle near Chicago, IL
           </a>
         </div>
       </div>
 
       <div className="footer-navigation-container">
-        <h4 className="footer-navigation-subject">Lorem Ipsum</h4>
+        <h4 className="footer-navigation-subject">About</h4>
         <div className="footer-navigation-links">
           <a className="footer-link1" href="/">
-            Lorem Ipsum
+            Leave Us a Review
           </a>
           <a className="footer-link2" href="/">
-            Lorem Ipsum
+            About Us
           </a>
           <a className="footer-link3" href="/">
-            Lorem Ipsum
+            Hours & Directions
           </a>
         </div>
       </div>

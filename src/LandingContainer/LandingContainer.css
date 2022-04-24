@@ -5,7 +5,7 @@
   height: 550px;
   width: 40%;
   background-size: cover;
-  background-image: url("../assets/Home/standing.webp");
+  background-image: url("../assets/Home/vw-ev-lineup.webp");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 5;
@@ -15,10 +15,18 @@
   border-radius: 25px 25px 25px 25px;
 }
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1450px) {
   .picture-overlap {
     height: 590px;
-    width: 603px;
+    width: 72%;
+    margin-left: 725px;
+    margin-top: 90px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .picture-overlap {
+    height: 590px;
+    width: 688px;
     margin-left: 725px;
     margin-top: 90px;
   }

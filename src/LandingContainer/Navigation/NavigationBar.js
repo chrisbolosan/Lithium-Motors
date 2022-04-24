@@ -14,7 +14,7 @@ import Badge from "@mui/material/Badge";
 import Colors from "../Colors/Colors";
 import "./NavigationBar.css";
 
-const pages = ["LOREM", "IPSUM", "EXCEPTEUR", "Consectetur", "Veniam"];
+const pages = ["MODELS", "SHOP", "LOCATIONS", "ACCOUNT", "MENU"];
 
 const NavigationBar = () => {
   //restyle spacing and font, REVISIT, CART later
@@ -43,7 +43,7 @@ const NavigationBar = () => {
     <AppBar
       className="navigation-container"
       position="static"
-      sx={{ background: "#FFFFFF", width: "100%", maxWidth: "1350px" }}
+      sx={{ background: "#FFFFFF", width: "100%" }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -59,7 +59,7 @@ const NavigationBar = () => {
             }}
             className="lorem-logo"
           >
-            Lorem Ipsum
+            Lithium Motors
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -116,7 +116,7 @@ const NavigationBar = () => {
               display: { xs: "flex", md: "none", color: "#000000" },
             }}
           >
-            Lorem Ipsum
+            Lithium Motors
           </Typography>
           <Box
             sx={{

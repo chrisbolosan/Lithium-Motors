@@ -52,7 +52,7 @@ export default function Countdown() {
     <div className="countdown-container">
       <div className="countdown-parent">
         <div className="countdown-details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          Take advantage and preorder your EV before time runs out!
           <div className="countdown-clock-container">
             <div>
               <div className="number">

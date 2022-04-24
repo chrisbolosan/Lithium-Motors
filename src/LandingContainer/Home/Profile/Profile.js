@@ -7,19 +7,21 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="profile-subject">
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+            <span>
+              YOUR VEHICLE,<br></br>YOUR TERMS
+            </span>
           </div>
 
           <div className="profile-info">
             <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.{" "}
+              Every Electric Vehicle from Lithium Motors comes equipped with a
+              Flexible Fast Charger. This portable device, compatible with any
+              120V or 240V outlet, delivers optimized charging wherever you go.
+              Charge from 0-100% in under 12 hours at a 240V outlet.
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn highlighted-btn">Lorem</button>
+            <button className="btn highlighted-btn">Learn More</button>
           </div>
         </div>
         <div className="profile-picture"></div>
