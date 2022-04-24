@@ -7,6 +7,7 @@ import car2Img from "../../assets/Product/car2.png";
 import car3Img from "../../assets/Product/car3.webp";
 import car1Img from "../../assets/Product/car1.png";
 import car4Img from "../../assets/Product/car4.jpeg";
+import car5Img from "../../assets/Product/car5.jpeg";
 import "./Products.css";
 
 const products = [
@@ -36,6 +37,12 @@ const products = [
     name: "Buzz Series",
     img: car4Img,
     description: "The road to the ID. Buzz is going to be worth the buzz.",
+  },
+  {
+    id: 5,
+    name: "S Series",
+    img: car5Img,
+    description: "Supercharging the EV era",
   },
 ];
 
