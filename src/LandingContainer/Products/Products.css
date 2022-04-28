@@ -88,6 +88,7 @@
   line-height: 24px;
 }
 .product-details .cart-btn {
+  font-weight: bold;
   position: absolute;
   bottom: 0;
   border: none;
@@ -97,7 +98,7 @@
   background-color: #000000;
   padding: 25px;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 .product-details .cart-btn:hover {

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-logo"></div>
 
       <div className="footer-navigation-container">
-        <h4 className="footer-navigation-subject">INVENTORY</h4>
+        <h4 className="footer-navigation-subject">Inventory</h4>
         <div className="footer-navigation-links">
           <a className="footer-link1" href="/">
             New Vehicles

@@ -23,7 +23,7 @@ const products = [
     name: "M Series",
     img: car2Img,
     description:
-      "Meet the First-Ever sporty electric vehicle that will leave you breathless",
+      "The First-Ever sporty electric vehicle that will leave you breathless",
   },
   {
     id: 3,
@@ -73,8 +73,8 @@ export default function Product() {
               <Colors />
               <button className="cart-btn" onClick={() => handleClick(product)}>
                 {cart.find((item) => item.id === product.id)
-                  ? "Remove from cart"
-                  : "Add to cart"}
+                  ? "REMOVE FROM CART"
+                  : "ADD TO CART"}
               </button>
             </div>
           ))

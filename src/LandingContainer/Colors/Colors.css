@@ -33,11 +33,11 @@ input.blue,
 input.blue:checked {
   background-color: #143061;
 }
-input.purple,
-input.purple:checked {
-  background-color: #81396f;
+input.pearl,
+input.pearl:checked {
+  background-color: #eaeae7;
 }
-input.pink,
-input.pink:checked {
-  background-color: #f6437d;
+input.green,
+input.green:checked {
+  background-color: #cbe812;
 }

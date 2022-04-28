@@ -21,7 +21,7 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn highlighted-btn">Learn More</button>
+            <button className="btn highlighted-btn">LEARN MORE</button>
           </div>
         </div>
         <div className="profile-picture"></div>
