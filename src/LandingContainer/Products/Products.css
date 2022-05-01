@@ -33,6 +33,13 @@
     max-width: 1536px;
   }
 }
+
+@media (max-width: 480px) {
+  .product-parent {
+    margin-top: 20px !important;
+  }
+}
+
 .product-parent {
   display: flex;
   flex-direction: row;

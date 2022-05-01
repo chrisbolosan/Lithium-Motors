@@ -94,6 +94,7 @@
     margin-right: 50px;
   }
   .footer-container {
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
   }
